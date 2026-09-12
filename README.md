@@ -42,7 +42,7 @@ Finite-difference numerical solution of the three-dimensional wave equation in C
 
 ## Academic Links
 
-* ORCID: `https://orcid.org/my-orcid?orcid=0009-0009-2585-3441`
+* [ORCID](https://orcid.org/0009-0009-2585-3441)
 * Curriculum Vitae: coming soon
 
 ## Contact
