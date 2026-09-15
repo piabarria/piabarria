@@ -1,51 +1,64 @@
-# Pía Barría
+# Pía Barría Herrera
 
-Final-year Physics undergraduate at **Universidad de Valparaíso, Chile**, interested in cosmology, computational physics, and scientific computing.
+Final-year Physics undergraduate at **Universidad de Valparaíso, Chile**, with interests in cosmology, computational physics, and scientific computing.
 
-My current work focuses on the application of numerical and computational methods to problems in cosmology, including dark-sector models, cosmological inference, and machine-learning emulators.
+My current work focuses on numerical and computational approaches to cosmology, including dark-sector models, cosmological inference, and machine-learning emulators.
 
 ## Research Interests
 
-* Cosmology and dark energy
-* Cosmological inference
-* Computational physics
-* Machine learning for physics
-* Scientific computing
+- Cosmology and dark energy
+- Cosmological inference
+- Computational physics
+- Machine learning for physics
+- High-performance and scientific computing
 
 ## Current Research
 
-### Dark Degeneracy in the Chaplygin–Jacobi Fluid
+### [Cosmological Matter Power Spectrum Emulator](https://github.com/piabarria/cosmological-power-spectrum-emulator)
 
-Computational study of interacting dark-sector cosmological models, including the numerical analysis of background evolution and the generation of the figures used in the research project.
+Neural-network emulator for the linear matter power spectrum \(P(k,z=0)\) generated with CLASS.
 
-### Cosmological Power Spectrum Emulator
+The emulator was trained on **16,384 cosmologies** and maps
 
-Development of a neural-network emulator for cosmological observables, with particular emphasis on the linear matter power spectrum generated with CLASS.
+\[
+(h,\omega_m,\omega_b,n_s)
+\longrightarrow
+P(k,z=0).
+\]
+
+The final model reaches a mean relative error of approximately **0.022%** on an independent test set and provides a batch speed-up of approximately **\(2.4\times10^4\)** relative to CLASS for 1,000 cosmologies.
+
+### [Dark Degeneracy in the Chaplygin–Jacobi Fluid](https://github.com/piabarria/dark-degeneracy-chaplygin-jacobi)
+
+Numerical study of a Chaplygin–Jacobi cosmological fluid and its mapping to an equivalent interacting dark-sector description.
+
+The project includes background evolution, density fractions, effective equations of state, interaction terms, parameter-space analysis, and numerical reproduction of the main figures associated with the research work.
 
 ## Selected Computational Projects
 
-### Parallel 2D Ising Model
+### [Parallel 2D Ising Model](https://github.com/piabarria/ising-model-openmp)
 
-Monte Carlo simulation of the two-dimensional Ising model using the Metropolis algorithm and OpenMP parallelization.
+Monte Carlo simulation of the two-dimensional Ising model using the Metropolis algorithm, with serial and OpenMP implementations.
 
-### 3D Wave Equation with AVX
+### [3D Wave Equation with AVX](https://github.com/piabarria/3d-wave-equation-avx)
 
-Finite-difference numerical solution of the three-dimensional wave equation in C using AVX/SIMD vectorization and Python-based visualization.
+Finite-difference solution of the three-dimensional wave equation in C, comparing scalar and AVX/SIMD implementations and including Python-based visualization.
 
 ## Scientific Computing
 
 **Languages:** Python, C
 
-**Tools and libraries:** NumPy, SciPy, Matplotlib, CLASS, Git, Linux
+**Scientific tools:** NumPy, SciPy, Matplotlib, TensorFlow, scikit-learn, CLASS
 
-**Parallel and high-performance computing:** OpenMP, MPI, SIMD/AVX
+**Parallel and high-performance computing:** OpenMP, SIMD/AVX
+
+**Development:** Linux, Git, Jupyter, Google Colab
 
 ## Academic Links
 
-* [ORCID](https://orcid.org/0009-0009-2585-3441)
-* Curriculum Vitae: coming soon
+- [ORCID](https://orcid.org/0009-0009-2585-3441)
 
 ## Contact
 
-Universidad de Valparaíso
+Universidad de Valparaíso  
 Chile
