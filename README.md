@@ -44,6 +44,12 @@ Monte Carlo simulation of the two-dimensional Ising model using the Metropolis a
 
 Finite-difference solution of the three-dimensional wave equation in C, comparing scalar and AVX/SIMD implementations and including Python-based visualization.
 
+## Course Projects
+
+### [SDSS Astronomical Object Classification](https://github.com/piabarria/sdss-object-classification)
+
+Artificial Intelligence course project using PyTorch to classify SDSS sources into galaxies, quasars and stars from photometric features and redshift.
+
 ## Scientific Computing
 
 **Languages:** Python, C
